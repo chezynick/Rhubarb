@@ -1,4 +1,4 @@
-import { EvalSourceMapDevToolPlugin } from "webpack";
+
 
 function contactDeets () {
     let contactPage = document.getElementById('content');
@@ -13,8 +13,8 @@ function contactDeets () {
     contacts.classList.add('contactBox')
     map.setAttribute('src','https://api2.ordnancesurvey.co.uk/mapping_api/v1/service/zxy/EPSG%3A3857/Outdoor%203857/12/2025/1325.png?key=n7AcuJE53SEuomCSn1dGpgNz1ZxGwU3C');
     deets.innerText = 'To book a table please \n contact us directly';
-    phone.innerText = 'Phone Number: 01457 8866666';
-    email.innerText = 'Email : blahblahblah@Rhubarb.com'
+    phone.innerText = 'Phone Number:\n 01457 8866666';
+    email.innerText = 'Email :\n blahblahblah@Rhubarb.com'
     //append details to contacts
     contacts.appendChild(deets)
     contacts.appendChild(phone);
