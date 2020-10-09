@@ -35,16 +35,15 @@ container.appendChild(header);
 //create main part of page
 const content = document.createElement('div');
 const choco = document.createElement('img');
-const foot = document.createElement('footer')
-foot.setAttribute('id','footer')
+
 content.setAttribute('id','content')
 choco.setAttribute('id','choco')
 choco.setAttribute('src','https://du7ybees82p4m.cloudfront.net/5954ced2cc41d8.37796671.jpg?width=1200&height=630')
-foot.innerText = 'info goes here'
+
 //append to container
 content.appendChild(choco);
 container.appendChild(content);
-container.appendChild(foot);
+
 //add event listeners for the 3 tabs
 //home tab reloads the page
 const homeButton = (() => {
