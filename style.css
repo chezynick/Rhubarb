@@ -24,7 +24,10 @@ header {width:100%; height:auto; background-color: antiquewhite; color:rgb(80, 7
 h1 {font-size: 100px;}
 h5 {font-size: 50px; margin-left:250px;padding-bottom: 10px; margin-top: -30px; }
 #menuBar {width:70%;height:50px;display:flex; flex-direction: row;justify-content: space-around;
-    font-size: 40px;}
+	font-size: 40px;}
+#home:hover {text-decoration: underline;}
+#menu:hover {text-decoration: underline;}	
+#contact:hover {text-decoration: underline;}
 #content {width:500px;height:auto; margin-left:auto; margin-right:auto;padding-top:50px; display:flex; flex-direction: row; justify-content: space-between;}
 #choco {width:500px; height:300px;}
 #footer {position: absolute; bottom:0; background-color: antiquewhite; color: rgb(80, 74, 74);
